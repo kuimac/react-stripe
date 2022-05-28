@@ -1,6 +1,12 @@
 const app = require("express")();
-const stripe = require("stripe")("sk_test_51L4HMKA3AbvkM4bV3ivVGMb6G3aV1nE3YlkMAmsSEkZnrcatIFLfPGzEBhz33OM9k3w1aOKnWMoQqL8hQdvv3fda00Cb8H2TjB");
+
 const cors = require("cors")
+
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+
+const stripe = require("stripe")(process.env.SKTEST);
 
 app.use(require("body-parser").text());
 app.use(cors())
