@@ -49,3 +49,12 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## [React + ExpressでStripeの決済処理を実装する](https://code-log.hatenablog.com/entry/2019/09/01/234124)
 ./server/.envを作成
 SKTEST=シークレットキー
+
+```
+yarn start
+
+cd ./server
+node server.js
+```
+カード番号は4242 4242 4242 4242
+月年cvc 住所は適当に
