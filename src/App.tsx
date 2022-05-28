@@ -6,7 +6,7 @@ import CheckoutForm from './CheckoutForm';
 const App: React.FC = () => {
   return (
     <div className="App">
-      <StripeProvider apiKey="">
+      <StripeProvider apiKey="pk_test_51L4HMKA3AbvkM4bVk37yyKC0YorbYsbwckK6ZQaDKpwheRqJUJEtzDbXSnvOfux2wghSYkrnwvTj6jhAJU8t9Y5R00wrtxzT3J">
         <Elements>
             <CheckoutForm />
         </Elements>
