@@ -47,3 +47,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 ## [React + ExpressでStripeの決済処理を実装する](https://code-log.hatenablog.com/entry/2019/09/01/234124)
+./server/.envを作成
+SKTEST=シークレットキー
